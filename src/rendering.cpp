@@ -80,5 +80,6 @@ void display() {
 
 	updateCameraRotation();
 
-    glutSwapBuffers();
+    glfwSwapBuffers();
+    //glutSwapBuffers();
 }
